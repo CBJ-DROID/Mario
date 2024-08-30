@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="logo mario">
+        <a>Homer</a>
+        <a>Nossos Serviços</a>
+        <a>Fale conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+
+        <div class="caixa-principal">
+
+            <img src="./img/logo.png" alt="logo do mario Bros" class="logo-mario">
+            <p>Enacanadoder Mario & Luigi resolvendo os seus problemas com Estilo!</p>
+            <p> Você já se encontrou em uma situação de emergẽncia com encanamento, Vazamentos inesperados, canos
+                entupidosou
+                torneiras que não param de pingar, Não se preocupe porque estamos aqui para salvar seu dia! Apresentamos
+                a vocês
+                os encanadores mais famosos do Reino dos Cogumelos. Mario e Luigi! </p>
+
+            
+                <button onclick="cliqueinobotao()">Entre em contato</button>
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="mario e Luigi" class="imagem-mario-luigi">
+        </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./img/video (1).mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="https://wa.me/5524988154825?text=Qeuro+ajuda+dos+Irm%C3%A3os+Mario" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link para whatsapp">
+
+    </a>
+
+    <form class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/JV6YpOI4HqU" 
+        method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Pedir orçamento</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+
+</html>
